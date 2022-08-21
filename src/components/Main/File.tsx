@@ -3,5 +3,5 @@ interface Props {
 }
 
 export function File({ content }: Props): JSX.Element {
-  return <div className="whitespace-pre">{content}</div>
+  return <div className="w-0 whitespace-pre">{content}</div>
 }
